@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    min-height: 13vh;
+    background-color: #434b4d00;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+   
+}
+
+#nav1{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #434b4d00;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+body{
+    background-size: 100%;
+     image-resolution: 100%;
+     background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp6227423.gif&f=1&nofb=1);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+li{
+    transition: 0.3s;
+  
+}
+li:hover{
+    
+    /*background-color:#95c4cf;*/
+ 
+    font-size: 18px;
+    background-color: rgb(102, 100, 202);
+    border-radius: 12%;
+    box-shadow: 10 px, 20 px,rgb(36, 161, 120);
+    padding: 8px;
+     
+}
+
+#H{
+ 
+}
+
+#A{
+
+}
+
+#S{
+  
+}
+
+#C{
+    
+}
+/* this is for the img gif*/ 
+.logo{
+    color:ghostwhite;
+    letter-spacing: 5px;
+    font-size: 20px;
+  
+}
+
+.homepage{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 20px;
+    
+}
+
+.homepage li{
+    list-style: none;
+    
+}
+
+.homepage a{
+    color:ghostwhite;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.extension div{
+    width: 25px;
+    height: 5px;
+    background-color: ghostwhite;
+    margin: 5px;
+}
+
+@media screen and (max-width: 1024px){
+    .homepage{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .body{
+        overflow-x: hidden;
+    }
+   
+    .homepage{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #5ba8bb;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform:translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .homepage li{
+        opacity: 0;
+    }
+    .extension{
+        display: block;
+    }
+
+}
+
+.homepage-active{
+    transform: translateX(0%);
+}
+
+.toggle .line1{
+    transform: rotate(-45deg translate(-5px, 6px));
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg translate(-5px, 6px));
+}
+
+.box{
+    margin-top: 250px;
+    margin-left: 550px;
+    background: white;
+    padding: 2em;
+    width: 30em;
+    box-shadow: black 10px 10px;
+    text-align: center;
+    font-size: 30px;
+}
+.box2{
+    margin-top: 100px;
+    margin-left: 550px;
+    background: white;
+    padding: 2em;
+    width: 30em;
+    box-shadow: black 10px 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.box3{
+    margin-top: 150px;
+    margin-left: 550px;
+    background: white;
+    padding: 2em;
+    width: 30em;
+    box-shadow: black 10px 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* for the games*/
+
+#games1{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+#games1 div {
+    width:20%
+}
+
+#unrow{
+    position: absolute;
+    
+    width: 1005;
+}
+#minecraft{
+      background-color: rgb(6, 39, 29);
+      background-image: url(forgames/Minecraftpic2.jpg) ;
+      object-position:left;
+      background-size: 500%;
+      background-repeat: no-repeat;
+    background-position: -20px;
+
+
+      position: absolute;
+      z-index: 1;
+      width: 10%; 
+     margin-left: 8%;
+     margin-right: 0.7%;
+      height: 32em;
+      transition: 0.3s;
+
+}
+ 
+#minecraft:hover{
+
+padding-right: 20%;
+background-attachment: fixed;
+}
+
+
+#Roblox{
+    background-color: rgb(34, 12, 30);
+    display: inline-block;
+    width: 10%;
+    height: 32em;
+    margin-right: 0.7%;
+    position: absolute;
+    z-index: 2;
+}
+
+#Game4{
+    background-color: rgb(23, 4, 36);
+    position: absolute;
+    z-index: 3;
+    width: 10%;
+    height: 32em;
+    margin-right: 0.7%;
+
+
+}
+
+#games2{
+    width:100%;
+    margin-left: 48%;
+
+}
+#Game5{
+    background-color: rgb(17, 4, 78);
+    display: inline-block;
+    width: 10%;
+    height: 32em;
+    margin-right: 0.7%;
+
+}
+
+#Game6{
+    background-color: rgb(17, 4, 78);
+    display: inline-block;
+    width: 10%;
+    height: 32em;
+    margin-right: 0.7%;
+    clear:both
+
+}
+
+
+
+
+/* owo */
+/* wow */

@@ -1,0 +1,21 @@
+Please Go to homepage first for the best effects
+
+
+
+Members
+
+Ryan Angelo P.Marigon
+John Knight Dumaguete
+Michael Vaughn Austria
+Daniel Tabara
+Joseph Neil DeLeon
+
+
+
+Further readings:
+
+The .oninput let the javascript read the value on every input
+(sliding the slider) thus changing value of "Your hype" and "Your satisfaction".
+
+
+Welcome to HypeMeter.

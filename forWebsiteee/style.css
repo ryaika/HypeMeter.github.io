@@ -1,0 +1,129 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-size: 100%;
+     image-resolution: 100%;
+     background-color: #080703;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.container{
+	width: 100%;
+	height: 280%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color:#6e09a010 ;
+	background-size:auto;
+	background-position: center center;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 0
+}
+
+
+.pictures{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-left: 10px;
+	flex-wrap: wrap;
+	margin-bottom: 700px;
+}
+.pictures2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-left: 50px;
+	flex-wrap: wrap;
+}
+.pictures3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	margin-left: 50px;
+	flex-wrap: wrap;
+}
+.pictures4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	margin-top: 950px;
+	margin-right: 400px;
+	flex-wrap: wrap;
+}
+.pictures5{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	margin-top: 950px;
+	margin-right: -400px;
+	flex-wrap: wrap;
+}
+.pic-img{
+	border-radius: 5px;
+}
+.pictures .pic{
+	width: 16rem;
+	margin: 20px;
+}
+.pic p{
+	font-size: 14px;
+}
+.active{
+	border-bottom: 1px solid #fff;
+}
+.pic-img1{
+	width: 100%;
+	height: 15rem;
+	background-image: url('About/01.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+}
+.pic-img2{
+	width: 100%;
+	height: 15rem;
+	background-image: url('About/02.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+}
+.pic-img3{
+	width: 100%;
+	height: 15rem;
+	background-image: url('About/03.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+}
+
+.pic-img4{
+	width: 100%;
+	height: 15rem;
+	background-image: url('About/04.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+}
+
+.pic-img5{
+	width: 100%;
+	height: 15rem;
+	background-image: url('About/05.jpg');
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+}
+
+
