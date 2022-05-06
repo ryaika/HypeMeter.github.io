@@ -229,6 +229,24 @@ p{
     background-color:#b92dff10 ;
   box-shadow: 7px 7px;
 }
+#Welcome1{
+    margin-top: 22%;
+    color: rgb(251, 122, 255);
+    font-family:'dongle', sans-serif;
+    font-size: 62px;
+    width: 80%;
+   
+    align-self: center;
+    margin: auto;
+    padding-bottom: 20px;
+  box-shadow: 7px 7px;
+  
+}
+
+#Welcomeyes{
+    background-color: #582a52;
+    padding-bottom: 10px;
+}
 #end{
     height: 20%;
     background-color:#6e09a011;
